@@ -14,4 +14,12 @@ public class Enemy : MonoBehaviour
             SceneManager.LoadScene(sceneToRestart);
         }
     }
+
+    void Update()
+    {
+        if (this.transform.localScale.y < 0.2f)
+        { 
+            Destroy(this);
+        }
+    }
 }

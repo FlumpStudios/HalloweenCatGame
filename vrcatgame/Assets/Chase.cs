@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class Chase : MonoBehaviour
 {
-    public GameObject player;  // Assign the player GameObject in the Inspector
+    private GameObject player;  // Assign the player GameObject in the Inspector
     public float movementSpeed = 2.0f;  // Adjust the movement speed as needed
+
+    private void Start()
+    {
+        player = GameObject.Find("Player");
+    }
 
     void Update()
     {

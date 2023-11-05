@@ -366,8 +366,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.1.12f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/8K Skybox Pack Free/Example Scenes/Script/RotateCamera.cs"
 "Assets/Chase.cs"
+"Assets/Cross.cs"
 "Assets/Enemy.cs"
 "Assets/PlayerController.cs"
+"Assets/Pumpkin.cs"
+"Assets/rotate.cs"
+"Assets/SpawnAfterTime.cs"
 -langversion:9.0
 
 /deterministic
